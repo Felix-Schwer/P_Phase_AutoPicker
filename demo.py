@@ -48,7 +48,7 @@ p.visualize_pick_info()
 # of events. Use the keywords 'local', 'regional' or 'tele'
 
 # Showcase this on a new example
-q = ppap.Picker(trace_datasets[42],sampling_intervals[42], header_datasets[42])
+q = ppap.Picker(trace_datasets[1],sampling_intervals[1], header_datasets[1])
 q.pick_routine_Allen(return_insights=True)
 q.visualize_pick_info('Default paramters')
 q.pick_routine_Allen(return_insights=True,parameter_preset='tele')
